@@ -1,8 +1,8 @@
-# 3D-point-cloud-compression-using-graph-transform
-## 3D-point-cloud-compression
-3D point cloud compression is the process of reducing the amount of data required to represent a 3D point cloud. This can be done through various techniques such as octree-based methods, principal component analysis, and voxel-based methods. The goal of compression is to retain the important features of the point cloud while reducing the data size to enable more efficient storage and transmission. Compressed point clouds can be used in a variety of applications such as in virtual and augmented reality, robotics, and surveying.
+# Breast cancer prediction
+## Abstact
+Radiologists consider fine-grained characteristics of mammograms as well as patient-specific information before making the final diagnosis. Recent literature suggests that a similar strategy works forComputer Aided Diagnosis (CAD) models; multi-task learning with radiological and patient features as auxiliary classification tasks improves the model performance in breast cancer detection. Unfortunately, the additional labels that these learning paradigms require, such as patient
+age, breast density, and lesion type, are often unavailable due to privacy restrictions and annotation costs. In this paper, we introduce a contrastive learning framework comprising a Lesion Contrastive Loss (LCL) and a Normal Contrastive Loss (NCL), which jointly encourage models to learn subtle variations beyond class labels in a self-supervised manner.The proposed loss functions effectively utilize the multi-view property of mammograms to sample contrastive image pairs. Unlike previous multitask learning approaches, our method improves cancer detection performance without additional annotations. Experimental results further demonstrate that the proposed losses produce discriminative intra-class features and reduce false positive rates in challenging cases.
 
-# 3D-point-cloud-compression using graph transform 
-3D point cloud compression using graph transform is a technique that involves representing a 3D point cloud as a graph and then applying graph transform methods to compress the data. In this approach, the 3D point cloud is first transformed into a graph structure, where each point in the point cloud is represented as a node and edges are added between nodes based on their spatial proximity. The graph is then transformed using various methods such as wavelet transform, Laplacian eigenmaps, or non-local means to obtain a compressed representation of the point cloud. This approach takes advantage of the spatial relationships between points in the point cloud to achieve high compression ratios while preserving the important features of the point cloud.
+
 
 
